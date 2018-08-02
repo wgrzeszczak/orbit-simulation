@@ -162,7 +162,7 @@ export default class App {
         <section>Inclination: ${this.output.I} rad</section>
         <section>Mean longitude: ${this.output.L} rad</section>
         <section>Longitude of perihelion: ${this.output.Lp} rad</section>
-        <section>Longitude of ascending node:: ${this.output.o} rad</section>
+        <section>Longitude of ascending node: ${this.output.o} rad</section>
         <section>Argument of periapsis: ${this.output.wp} rad</section>
         <section>Mean anomaly: ${this.output.M} rad</section>
         <section>Eccentric anomaly: ${this.output.E} rad</section>
