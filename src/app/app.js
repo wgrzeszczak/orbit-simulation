@@ -136,20 +136,20 @@ export default class App {
     }
 
     render() {
-        this.canvasContext.clearRect(0, 0, window.innerWidth, window.innerHeight);
+        this.canvasContext.clearRect(0, 0, this.view.innerWidth, this.view.innerHeight);
         this.canvasContext.strokeStyle = '#000000';
         this.canvasContext.fillStyle = '#000000';
 
         this.canvasContext.beginPath();
-        this.canvasContext.arc(window.innerWidth / 2 - 4, window.innerHeight / 2 - 4, 8, 0, 2 * Math.PI);
+        this.canvasContext.arc(this.view.innerWidth / 2 - 4, this.view.innerHeight / 2 - 4, 8, 0, 2 * Math.PI);
         this.canvasContext.stroke();
         this.canvasContext.fill();
         this.canvasContext.closePath();
 
         this.canvasContext.beginPath();
         this.canvasContext.arc(
-            this.planetPosition.x * Math.pow(2, Number(this.zoomInput.value)) + window.innerWidth / 2, 
-            this.planetPosition.y * Math.pow(2, Number(this.zoomInput.value)) + window.innerHeight / 2, 
+            this.planetPosition.x * Math.pow(2, Number(this.zoomInput.value)) + this.view.innerWidth / 2, 
+            this.planetPosition.y * Math.pow(2, Number(this.zoomInput.value)) + this.view.innerHeight / 2, 
             5, 0, 2 * Math.PI
         );
         this.canvasContext.stroke();
