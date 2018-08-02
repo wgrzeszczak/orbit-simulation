@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 1px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f78300;
+}
+
+.title {
+    position: relative;
+    text-align: left;   
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #f78300;
+    padding: 0px 10px;
+}
+
+.controls {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 10px 5px 10px;
+}
+
+.controls span {
+    vertical-align: top;
+}
+
+.controls input {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.small {
+    display: block;
+    font-size: 11px;
+    padding: 0 0 5px 5px;
+    color: #ffffff;
+}
+
+.large {
+    font-size: 30px;
+}
+
+td {
+    padding: 2px;
+}
+
+.history {
+    height: 300px;
+    overflow: scroll;
+}
+
+.currentdatevalue {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}

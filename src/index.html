@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Orbit</title>
+</head>
+<body>
+    <canvas></canvas>
+    <section class="panel">
+        <section class="title">
+                <span class="large">Simulation</span><span class="currentdatevalue">
+        </section>
+        <section class="controls">
+            <table>
+                <tr>
+                    <td><span class="action">Speed: </span></td>
+                    <td><input type="range" min="-13" max="13" value="1" class="speedinput"></td>
+                    <td><span class="speedinputvalue"></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Zoom: </span></td>
+                    <td><input type="range" min="1" max="13" value="7" class="zoominput"></td>
+                    <td><span class="zoominputvalue"></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Date: </span></td>
+                    <td><input type="text" class='date' value='2000-01-01T00:00:00.000Z'></td>
+                </tr>
+            </table>
+        </section>
+        <section class="title">
+            <span class="large">Orbital parameters</span>
+        </section>
+        <section class="controls">
+            <table>
+                <tr>
+                    <td><span class="action">Semimajor axis: </span></td>
+                    <td><input type="text" class='semimajoraxis' value='1.52371034'></td>
+                    <td><input type="text" class='semimajoraxiscentury' value='0.00001847'></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Eccentricity: </span></td>
+                    <td><input type="text" class='eccentricity' value='0.09339410'></td>
+                    <td><input type="text" class='eccentricitycentury' value='0.00007882'></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Inclination: </span></td>
+                    <td><input type="text" class='inclination' value='1.8496142'></td>
+                    <td><input type="text" class='inclinationcentury' value='-0.00813131'></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Mean longitude: </span></td>
+                    <td><input type="text" class='meanlongitude' value='-4.55343205'></td>
+                    <td><input type="text" class='meanlongitudecentury' value='19140.30268499'></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Longitude of perihelion: </span></td>
+                    <td><input type="text" class='longitudeofperihelion' value='-23.94362959'></td>
+                    <td><input type="text" class='longitudeofperihelioncentury' value='0.44441088'></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Longitude of ascending node: </span></td>
+                    <td><input type="text" class='longitudeofascendingnode' value='49.55953891'></td>
+                    <td><input type="text" class='longitudeofascendingnodecentury' value='-0.29257343'></td>
+                </tr>
+            </table>
+        </section>
+        <section class="title">
+            <span class="large">Output</span>
+        </section>
+        <section class="controls">
+            <span class="output" />
+        </section>
+        <section class="title">
+            <span class="large">Render status</span>
+        </section>
+        <section class="controls">
+            <table>
+                <tr>
+                    <td><span class="action">Resolution: </span></td><td><span class='renderresolution'></span></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Delta: </span></td><td><span class='renderdeltatime'></span></td>
+                </tr>
+            </table>
+        </section>
+        <section class="title">
+            <span class="large">Utility</span>
+        </section>
+        <section class="controls">
+            <table>
+                <tr>
+                    <td><span class="action">Deg to Rad: </span></td>
+                    <td><input class='degtoradin'></td>
+                    <td><input class='degtoradout'></td>
+                </tr>
+                <tr>
+                    <td><span class="action">Rad to Deg: </span></td>
+                    <td><input class='radtodegin'></td>
+                    <td><input class='radtodegout'></td>
+                </tr>
+            </table>
+        </section>
+    </section>
+</body>
+</html>
