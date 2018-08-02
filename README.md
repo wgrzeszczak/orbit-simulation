@@ -1,5 +1,5 @@
 # orbit-simulation
-Orbit simulation on Kepler's equation. This is a companion app for [solar-system-simulation](https://github.com/wgrzeszczak/solar-system-simulation).
+Orbit simulation on Kepler's equation. This is a companion app to [solar-system-simulation](https://github.com/wgrzeszczak/solar-system-simulation).
 
 ![Demo 1](https://wgrzeszczak.github.io/orbit/demo1.png)
 
