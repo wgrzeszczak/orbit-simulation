@@ -7,6 +7,8 @@ Orbit simulation based on Kepler's equation. This is a companion app to [solar-s
 ### Live demo
 Live demo: https://wgrzeszczak.github.io/orbit/
 
+Adjust any of the orbital elements to see how the orbit changes.
+
 ### License
 ```
 MIT License
